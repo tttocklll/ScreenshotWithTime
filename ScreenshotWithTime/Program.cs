@@ -10,11 +10,9 @@ namespace ScreenshotWithTime
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            //ApplicationConfiguration.Initialize();
-            //var form = new Form1();
-            //Application.Run();
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            ApplicationConfiguration.Initialize();
+
+            // Run App w/o displaying form
             Form1 f = new Form1();
             Application.Run();
         }
